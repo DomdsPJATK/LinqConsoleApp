@@ -310,8 +310,8 @@ namespace LinqConsoleApp
                 new
                 {
                     Ename = "Brak wartosci",
-                    Job = (string) null,
-                    HireDate = (string) null
+                    Job = "null",
+                    HireDate = (DateTime?) null
                 }
             }).Union(Emps.Select(emp => new
             {
